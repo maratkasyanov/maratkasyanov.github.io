@@ -38,7 +38,7 @@ const zakr = body.addEventListener('click', function (event) {
     console.log('Произошло событие', event.type)
     document.getElementById('leftt').style.display = 'none'
     document.getElementById('js').style.display = 'none';
-  
+
     document.getElementById('hidden-js').style.overflowY = 'visible'
     document.getElementById('opacity-js').style.opacity = '1'
     document.getElementById('opacity-jss').style.opacity = '1'
@@ -53,7 +53,7 @@ const zakr = body.addEventListener('click', function (event) {
     console.log('Произошло событие', event.type)
     document.getElementById('leftt').style.display = 'none'
     document.getElementById('js').style.display = 'none';
-  
+
     document.getElementById('hidden-js').style.overflowY = 'visible'
     document.getElementById('opacity-js').style.opacity = '1'
     document.getElementById('opacity-jss').style.opacity = '1'
@@ -79,12 +79,12 @@ let zakr2 = boaady.addEventListener('click', function (event) {
     console.log('Произошло событие', event.type)
     document.getElementById('leftt').style.display = 'none'
     document.getElementById('js').style.display = 'none';
-  
+
     document.getElementById('hidden-js').style.overflowY = 'visible'
     document.getElementById('opacity-js').style.opacity = '1'
     document.getElementById('opacity-jss').style.opacity = '1'
     document.getElementById('js').style.zIndex = '0'
-   
+
 console.log('1')
 location.reload();
   })
@@ -94,7 +94,7 @@ location.reload();
     console.log('Произошло событие', event.type)
     document.getElementById('leftt').style.display = 'none'
     document.getElementById('js').style.display = 'none';
-  
+
     document.getElementById('hidden-js').style.overflowY = 'visible'
     document.getElementById('opacity-js').style.opacity = '1'
     document.getElementById('opacity-jss').style.opacity = '1'
@@ -103,7 +103,7 @@ location.reload();
     console.log('2')
     location.reload();
   })
-  
+
   }
 
 })
@@ -119,7 +119,7 @@ vv.addEventListener('click', function (event) {
   document.getElementById('opacity-js').style.opacity = '1'
   document.getElementById('opacity-jss').style.opacity = '1'
   document.getElementById('js').style.zIndex = '0'
- 
+
 console.log('1')
 location.reload();
 })
@@ -145,7 +145,7 @@ call.addEventListener('click', function (event) {
     document.getElementById('caption').style.opacity = '0.2'
     document.getElementById('js').style.opacity = '0.2'
   }
- 
+
 })
 
 
@@ -161,7 +161,8 @@ closeCall.addEventListener('click', function (event) {
     document.getElementById('opacity-jss').style.opacity = '1'
     document.getElementById('caption').style.opacity = '1'
     document.getElementById('js').style.opacity = '1'
-   
+    location.reload();
+
 })
 closeCall2.addEventListener('click',function (event) {
   document.getElementById('container-call').style.display = 'none'
@@ -174,6 +175,7 @@ closeCall2.addEventListener('click',function (event) {
    document.getElementById('opacity-jss').style.opacity = '1'
    document.getElementById('caption').style.opacity = '1'
    document.getElementById('js').style.opacity = '1'
+   location.reload();
 })
 
 
@@ -188,7 +190,7 @@ feedback2.addEventListener('click',function (event) {
     }
     document.getElementById('container-feedback').style.display = 'flex'
     document.getElementById('container-feedback').style.zIndex = '11'
-   
+
     document.getElementById('hidden-js').style.overflowY = 'hidden'
     document.getElementById('opacity-js').style.opacity = '0.2'
     document.getElementById('opacity-jss').style.opacity = '0.2'
@@ -210,6 +212,7 @@ closeFeed.addEventListener('click',function wq(event) {
   document.getElementById('opacity-jss').style.opacity = '1'
   document.getElementById('caption').style.opacity = '1'
   document.getElementById('js').style.opacity = '1'
+  location.reload();
 })
 const closeFeed2 = document.querySelector('.burger-menu-call__close')
 closeFeed2.addEventListener('click',function wq(event) {
@@ -223,6 +226,7 @@ closeFeed2.addEventListener('click',function wq(event) {
   document.getElementById('opacity-jss').style.opacity = '1'
   document.getElementById('caption').style.opacity = '1'
   document.getElementById('js').style.opacity = '1'
+  location.reload();
 })
 
 
@@ -245,14 +249,13 @@ let zakr22 = boaady2.addEventListener('click', function (event) {
     document.getElementById('opacity-jss').style.opacity = '1'
     document.getElementById('caption').style.opacity = '1'
     document.getElementById('js').style.opacity = '1'
-    
-   
-console.log('1')
-location.reload();
+
+
+
   })
   let boaady2 = document.querySelector('.ob')
   let zakr22 = boaady2.addEventListener('click', function (event) {
-  
+
     document.getElementById('container-feedback').style.display = 'none'
     document.getElementById('zaplatka').style.display = 'none'
     document.getElementById('container-feedback').style.zIndex = '0'
@@ -263,10 +266,10 @@ location.reload();
     document.getElementById('opacity-jss').style.opacity = '1'
     document.getElementById('caption').style.opacity = '1'
     document.getElementById('js').style.opacity = '1'
-    console.log('2')
-    location.reload();
+
+
   })
-  
+
   }
 
 })
@@ -289,14 +292,14 @@ let zakr222 = boaady22.addEventListener('click', function (event) {
     document.getElementById('opacity-jss').style.opacity = '1'
     document.getElementById('caption').style.opacity = '1'
     document.getElementById('js').style.opacity = '1'
-    
-   
-console.log('1')
-location.reload();
+
+
+
+
   })
   let boaady2 = document.querySelector('.ob')
   let zakr22 = boaady2.addEventListener('click', function (event) {
-  
+
     document.getElementById('container-call').style.display = 'none'
     document.getElementById('zaplatka').style.display = 'none'
     document.getElementById('container-call').style.zIndex = '0'
@@ -307,10 +310,10 @@ location.reload();
     document.getElementById('opacity-jss').style.opacity = '1'
     document.getElementById('caption').style.opacity = '1'
     document.getElementById('js').style.opacity = '1'
-    console.log('2')
-    location.reload();
+
+
   })
-  
+
   }
 
 })
