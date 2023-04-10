@@ -166,12 +166,6 @@ dd {
 .none-1120 {
 	display: none;
 }
-.hidden {
-	display: none;
-}
-.hidden-always {
-	display: none;
-}
 .type-repair {
 	margin-right: 15px !important;
 	width: 270px !important;
@@ -284,6 +278,10 @@ dd {
 	flex-direction: column;
 	justify-content: space-around;
 }
+.card-grid-repaire {
+  display: grid;
+  justify-content: center;
+}
 @media (min-width: 768px) {
 	.swiper {
 		display: none;
@@ -340,7 +338,9 @@ dd {
 		justify-content: center;
 		align-items: center;
 	}
-
+  .hidden-always {
+    display: none;
+  }
 	.pricing-card__time {
 		font-family: $font-family_1;
 		font-size: 14px;
@@ -454,15 +454,11 @@ dd {
 		border-radius: 6px;
 		margin-bottom: 2%;
 	}
-	.hidden {
-		display: none;
-	}
 	.card-grid {
 		display: grid;
 	}
-	.card-grid-repaire {
-		display: grid;
-		justify-content: center;
+  .hidden {
+		display: none;
 	}
 	.card__btn {
 		height: 40px;
@@ -472,6 +468,7 @@ dd {
 		background-color: $background-color_1;
 		border: 2px solid #FF3E79;
 	}
+
 	.none {
 		display: none;
 		margin-top: 8px;
