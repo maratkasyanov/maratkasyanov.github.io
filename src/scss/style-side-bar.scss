@@ -1,0 +1,247 @@
+$color_1: #1B1C21;
+$color_2: #7E7E82;
+$font-family_1: 'TT Lakes';
+$background-color_1: white;
+$background-color_2: #ffffff;
+
+body {
+	margin: 0;
+}
+h1 {
+	margin: 0;
+}
+h2 {
+	margin: 0;
+}
+h3 {
+	margin: 0;
+}
+h4 {
+	margin: 0;
+}
+p {
+	margin: 0;
+}
+ul[class] {
+	margin: 0;
+}
+ol[class] {
+	margin: 0;
+}
+li {
+	margin: 0;
+}
+figure {
+	margin: 0;
+}
+figcaption {
+	margin: 0;
+}
+blockquote {
+	margin: 0;
+}
+dl {
+	margin: 0;
+}
+dd {
+	margin: 0;
+}
+.container {
+	border-right: 1px solid rgba(69, 79, 126, 0.02);
+	height: 100%;
+	background-color: $background-color_1;
+	display: none;
+}
+.services-menu {
+	display: flex;
+	flex-direction: column;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+.burger-menu__logo-img {
+	margin-left: 13%;
+	margin-right: 15%;
+}
+.footer__nav-img {
+	margin-bottom: -3px;
+}
+.burger-menu {
+	margin-top: 10%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.burger-menu__left-cont {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-left: 5%;
+}
+.burger-menu__btn-left {
+	background: #FF3E79;
+	border-radius: 20px;
+	border: none;
+	height: 40px;
+	width: 40px;
+	margin-right: 22px;
+	&:hover {
+		opacity: 0.5;
+	}
+}
+.footer__nav-elem {
+	background: #FF3E79;
+	border-radius: 20px;
+	border: none;
+	height: 40px;
+	width: 40px;
+	&:hover {
+		opacity: 0.5;
+	}
+}
+.footer__nav {
+	margin-left: 5%;
+	margin-bottom: 10px;
+}
+.footer__email-txt {
+	font-family: $font-family_1;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 24px;
+	color: $color_1;
+	margin-left: 5%;
+	margin-top: 4%;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+.footer__number-txt {
+	font-family: $font-family_1;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 32px;
+	color: $color_1;
+}
+.footer__lang {
+	margin-top: 5%;
+	margin-bottom: 1%;
+	margin-left: 5%;
+}
+.footer__input {
+	display: none;
+}
+.burger-menu__btn-left__img {
+	background-image: url(../assets/img/krest.svg);
+	background-repeat: no-repeat, repeat;
+	background-position: center;
+}
+.burger-menu__btn-left__img2 {
+	background-image: url(../assets/img/lupa.svg);
+	background-repeat: no-repeat, repeat;
+	background-position: center;
+}
+.footer__nav-elem__img1 {
+	background-image: url(../assets/img/trubka.svg);
+	background-repeat: no-repeat, repeat;
+	background-position: center;
+}
+.footer__nav-elem__img2 {
+	background-image: url(../assets/img/mess.svg);
+	background-repeat: no-repeat, repeat;
+	background-position: center;
+}
+.footer__nav-elem__img3 {
+	background-image: url(../assets/img/cont.svg);
+	background-repeat: no-repeat, repeat;
+	background-position: center;
+}
+.footer__lang-elem {
+	font-family: $font-family_1;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: $color_1;
+	text-decoration: none;
+	&:active {
+		color: $color_2;
+	}
+}
+.footer {
+	display: flex;
+	flex-direction: column;
+	align-content: flex-end;
+	justify-content: space-around;
+}
+.services-menu__elem {
+	border-left: 4px solid #ffffff;
+	padding-left: 8%;
+	font-family: $font-family_1;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 24px;
+	color: $color_1;
+	text-decoration: none;
+	margin-bottom: 20px;
+	margin-top: 3%;
+	&:hover {
+		border-left: 4px solid #41F6D7;
+		color: $color_2;
+	}
+}
+.services-menu__li {
+	font-family: $font-family_1;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 24px;
+	margin-bottom: 25px;
+	padding: 5px 5px;
+}
+.left {
+	display: none;
+}
+@media (min-width: 1440px) {
+	.container {
+		.burger-menu__btn-right {
+			margin-right: 5%;
+			background: #FF3E79;
+			border-radius: 20px;
+			border: none;
+			height: 40px;
+			width: 40px;
+		}
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		max-width: 320px;
+		margin-top: -28.4%;
+		height: 80%;
+	}
+	.ob {
+		display: flex;
+		flex-direction: row;
+	}
+	.burger-menu__btn-left__img {
+		display: none;
+	}
+	.hidden-arrow {
+		display: none;
+	}
+	.color {
+		background-color: $background-color_2;
+		height: 100%;
+		width: 320px;
+	}
+	.left {
+		display: flex;
+		flex-direction: column;
+	}
+}
