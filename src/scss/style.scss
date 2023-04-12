@@ -273,17 +273,17 @@ a {
 	background-color: $background-color_2;
 	text-align: center;
 	display: none;
-	background-image: url(../assets/img/call.svg) !important;
+	background-image: url(../assets/img/call.svg) ;
 	background-repeat: no-repeat, repeat;
 	background-position: center;
 }
 .nav-menu__btn-nav__second {
-	background-image: url(../assets/img/message.svg) !important;
+	background-image: url(../assets/img/message.svg) ;
 	background-repeat: no-repeat, repeat;
 	background-position: center;
 }
 .nav-menu__btn-nav__third {
-	background-image: url(../assets/img/contact.svg) !important;
+	background-image: url(../assets/img/contact.svg) ;
 	background-repeat: no-repeat, repeat;
 	background-position: center;
 }
@@ -299,12 +299,12 @@ a {
 	flex-basis: 100%;
 }
 .button-and-txt__btn-repair__frst {
-	background-image: url(../assets/img/realrepair.svg) !important;
+	background-image: url(../assets/img/realrepair.svg) ;
 	background-repeat: no-repeat, repeat;
 	background-position: center;
 }
 .button-and-txt__btn-repair__sec {
-	background-image: url(../assets/img/searchqq.svg) !important;
+	background-image: url(../assets/img/searchqq.svg) ;
 	background-repeat: no-repeat, repeat;
 	background-position: center;
 }
@@ -319,6 +319,7 @@ a {
 	background-color: $background-color_1;
 	display: flex;
 	align-items: center;
+  cursor: pointer;
 	&::before {
 		content: url('../assets/img/arrows.svg') !important;
 		padding-top: 5px;
@@ -356,10 +357,19 @@ a {
 .white {
 	display: none;
 }
+.card-repaire{
+  margin-top: 10px;
+}
 @media (max-width:380px) {
 	.service-navigation__list {
 		padding-left: -10%;
 	}
+}
+@media (max-width: 768px) {
+  .description-next__img{
+    margin: 2% 2%;
+    width: 97%;
+  }
 }
 @media (min-width: 768px) {
 	.nav-menu__btn-nav {
